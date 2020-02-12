@@ -1,2 +1,2 @@
 https://github.com/frostiz/IS445-Homework2
-LINK NETLIFY
+https://festive-dubinsky-c7b51a.netlify.com/
