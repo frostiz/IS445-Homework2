@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+header {
+    background-color: purple;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+nav {
+    text-align: center;
+    background-color: lightgray;
+}
+
+nav .btn-nav {
+    padding: 2px 40px;
+    color: black;
+    border: none;
+    margin: 30px 0;
+}
+
+.hide-on-small {
+    display: none;
+}
+
+/* Travel section*/
+
+section#travel-section #trips .trip-item {
+    background-color: purple;
+}
+
+section#travel-section #trips .trip-item .trip-header, div#trips + p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 2px 0;
+}
+
+div#trips + p {
+    background-color: purple;
+    padding-bottom: 5px;
+}
+
+section#travel-section #trips .trip-item img {
+    width: 100%;
+}
+
+
+/* Comment section */
+
+section#comment-section .comment-list {
+    padding: 0 10px;
+}
+
+section#comment-section .comment-item {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section#comment-section .comment-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+section#comment-section .comment-item .profile-pic {
+    width: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+
+section#comment-section .comment-item .comment-text {
+    margin: 0 0 0 20px;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+    section#travel-section #trips {
+        display: flex;
+        flex-direction: row;
+    }
+
+    section#travel-section #trips .trip-item {
+        background-color: purple;
+        flex: 1;
+    }
+
+    .hide-on-small {
+        display: block;
+    }
+
+    section#comment-section .comment-item .comment-text {
+        margin: 0 0 0 50px;
+    }
+}
