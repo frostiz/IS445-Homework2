@@ -84,7 +84,7 @@ section#comment-section .comment-item .profile-pic {
 section#comment-section .comment-item .comment-text {
     margin: 0 0 0 20px;
     display: inline-block;
-    width: 300px;
+    max-width: 300px;
     text-align: center;
 }
 
